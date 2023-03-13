@@ -5,7 +5,7 @@ body{background-color: #989cff;
 
 
 header {background-image: linear-gradient(to top, #00005b, #000098, #0000f4);
-    max-height: 240px;
+    height: 100%;
     border-radius: 5px;
     box-shadow: 5px 5px 5px rgb(58, 58, 58);
 
@@ -26,6 +26,7 @@ header > h3 {text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 10px;
     padding-left: 10px;
+
 }
 
 
@@ -37,6 +38,7 @@ header > h3 {text-align: center;
 
 header > .cabecalho{display: inline-block;
     margin-bottom: 1px;
+   padding-top: 30px;
    padding: 5px;
    margin-left: 20px;
    border-radius: 5px;
