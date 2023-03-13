@@ -35,7 +35,7 @@ header > h3 {text-align: center;
 
 }
 
-.cabecalho{display: inline-block;
+header > .cabecalho{display: inline-block;
     padding: 10px;
     margin-left: 20px;  
     margin-bottom: 1px;
@@ -46,7 +46,7 @@ header > h3 {text-align: center;
    font-family: Arial, Helvetica, sans-serif;
 }
 
-.cabecalho:hover {background-color: #989cff;
+header > .cabecalho:hover {background-color: #989cff;
     color: #000141;
 }
 
