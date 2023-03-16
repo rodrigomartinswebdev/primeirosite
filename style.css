@@ -1,20 +1,20 @@
 @charset "UTF-8";
 
-body{background-color: #989cff;
+body{background-color: #000000;
 }
 
 
-header {background-image: linear-gradient(to top, #00005b, #000098, #0000f4);
+header {background-image: linear-gradient(to top, #000000, #04044b, #0000a0);
     height: 100%;
     border-radius: 5px;
-    box-shadow: 5px 5px 5px rgb(58, 58, 58);
+    box-shadow: 5px 5px 5px #471fb5;
 
 }
 
 header > h1 {
     text-align: center;
     font-size: 40px;
-    text-shadow: 2px 2px rgb(62, 62, 62);
+    text-shadow: 2px 2px rgb(0, 0, 0);
     color: white;
     padding-top: 30px;
     margin-top: auto;
@@ -41,12 +41,16 @@ header > .cabecalho{display: inline-block;
    padding: 5px;
    margin-left: 20px;
    border-radius: 5px;
+   
    color: white;
    font-family: Arial, Helvetica, sans-serif;
+   
 }
 
-header > .cabecalho:hover {background-color: #989cff;
-    color: #000141;
+header > .cabecalho:hover {background-image: linear-gradient(to top, #002503, #006102);
+    transition: 1s;
+    color: #ffffff;
+    box-shadow: 5px 5px 5px #00a020;
 }
 
 
@@ -54,22 +58,24 @@ a{text-decoration: none;
     color: inherit;}
 
 
-    main {background-color: #d1dce7;
+    main {background-color:aliceblue;
         height: 100%;
         max-width: 800px;
         margin: auto;
         padding-bottom: 20px;
         margin-bottom: 30px;
         border-radius: 5px;
-        box-shadow: 5px 5px 5px rgb(98, 98, 98);
+        box-shadow: 5px 5px 5px #471fb5;
     }
 
     main > h2{ margin-top: 15px;
         padding-top: 5px;
         padding-bottom: 5px;
         text-align: center;
-        color: white;
-        background-color: #00004ebb;
+        color: rgb(255, 255, 255);
+        background-image: linear-gradient(to top, blue,black);
+        border-top-style: solid;
+        border-top-color: #471fb5;
     }
 
 
@@ -82,6 +88,7 @@ a{text-decoration: none;
     
     img {
         width: 100%;
+
       }
       
       .imagem {
