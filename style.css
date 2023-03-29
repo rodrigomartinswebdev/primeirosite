@@ -104,7 +104,7 @@ a{text-decoration: none;
    
 
 .imagem1 {background-color: white;
-    background-size: 80%;
+    background-size: 80vh;
     background-image: url(imagens/4.jpg);
     background-position: center;
     background-attachment: fixed;
@@ -117,7 +117,7 @@ a{text-decoration: none;
   
 .imagem2 { background-image: url(imagens/2.jpg);
     background-color: white;
-    background-size: 80%;
+    background-size: 40%;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -129,7 +129,7 @@ a{text-decoration: none;
 
 .imagem3 { background-image: url(imagens/3.jpg);
     background-color: white;
-    background-size: 80%;
+    background-size: 40%;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -140,7 +140,7 @@ a{text-decoration: none;
 }
 
 .imagem4 {background-color: white;
-    background-size: 80%;
+    background-size: 40%;
     background-image: url(imagens/8.jpg);
     background-position: center;
     background-attachment: fixed;
@@ -152,7 +152,7 @@ a{text-decoration: none;
 }
 
 .imagem5 {background-color: white;
-    background-size: 80%;
+    background-size: 40%;
     background-image: url(imagens/6.jpg);
     background-position: center;
     background-attachment: fixed;
@@ -164,7 +164,7 @@ a{text-decoration: none;
 }
 
 .imagem6 {background-color: white;
-    background-size: 80%;
+    background-size: 40%;
     background-image: url(imagens/7.webp);
     background-position: center;
     background-attachment: fixed;
