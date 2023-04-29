@@ -1,239 +1,54 @@
 @charset "UTF-8";
 
-body{background-color: #000000;
+body, html {
+    background-color: #181818;
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-color: rgb(35, 35, 35);
+    width: 100vw;
+    height: 60px;
 }
 
 
-
-header {background-image: linear-gradient(to top, #000000, #1e0b93, #000000);
-    height: 100%;
-    border-radius: 5px;
-    box-shadow: 0px 0px 20px #711795;
-
+#imagem {
+    display: inline-block;
+    height: 60px;
+    width: 20vw;
+    background-image: url(imagens/logomarca.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-header > h1 {
-    text-align: center;
-    font-size: 40px;
-    text-shadow: 2px 2px #711795;
-    color: white;
-    padding-top: 30px;
-    margin-top: auto;
+#menu {
+    display: inline-block;
+    width: 79vw;
+    height: 60px;
+    position: absolute;
 }
 
-
-header > h3 {text-align: center;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 10px;
-    padding-left: 10px;
-}
-
-
-
-#destaque { color: white;
-    background-image: linear-gradient(to top, #000000, #711795);
-    box-shadow: 0px 0px 10px #2c58b0;
-}
-
-header > .cabecalho{display: inline-block;
-   margin-bottom: 10px;
-   padding: 5px;
-   margin-left: 20px;
-   color: white;
-   background-image: linear-gradient(to top, #000000, #0c0c9d);
-   font-family: Arial, Helvetica, sans-serif;
+#navegaçao {
+    display: flex;
+    width: 79vw;
+    height: 60px;
+    justify-content: end;
+    align-items: center;
    
 }
 
-header > .cabecalho:hover {background-image: linear-gradient(to top, #000000, #711795);
-    transition: 0.5s;
-    color: #ffffff;
-    box-shadow: 0px 0px 10px #2c58b0;
-}
-
-
-a{text-decoration: none;
-    color: inherit;}
-
-
-    main {background-color: white;
-        height: 100%;
-        max-width: 800px;
-        margin: auto;
-        padding-bottom: 10px;
-        margin-bottom: 30px;
-        box-shadow: 0px 0px 20px #2c58b0;
-   
-    }
-
-    main > h2{ margin-top: 20px;
-        
-        margin-bottom: 0px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        text-align: center;
-        color: rgb(255, 255, 255);
-        background-image: linear-gradient(to top, #000000, #711795);
-       
-    }
-
-
-    .texto {background-color: #ffffff;
-        color: black;
-        text-align: justify;
-        padding-left: 25px;
-        line-height: 20px;
-        text-indent: 50px;
-        margin: 0px 25px 0px 25px;
-        padding: 25px;
-        
-    }
-
-
-
-    .imagem > img { width: 85%;
-        
-    }
-  
-    .imagem {max-width: 800px;
-        margin: auto;
-        text-align: center;
-        
-    }
-   
-
-.imagem1 {background-color: white;
-    background-size: 80vh;
-    background-image: url(imagens/4.jpg);
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    max-width: 800x;
-    height: 450px;
-    margin-bottom: 0px;
-    box-shadow: inset 3px 3px 13px 1px black
-}
-  
-.imagem2 { background-image: url(imagens/2.jpg);
-    background-color: white;
-    background-size: 40%;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    max-width: 800x;
-    height: 450px;
-    margin-bottom: 0;
-    box-shadow: inset 3px 3px 13px 1px black
-}
-
-.imagem3 { background-image: url(imagens/3.jpg);
-    background-color: white;
-    background-size: 40%;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    max-width: 800x;
-    height: 450px;
-    margin-bottom: 0;
-    box-shadow: inset 3px 3px 13px 1px black
-}
-
-.imagem4 {background-color: white;
-    background-size: 40%;
-    background-image: url(imagens/8.jpg);
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    max-width: 800x;
-    height: 450px;
-    margin-bottom: 0px;
-    box-shadow: inset 3px 3px 13px 1px black
-}
-
-.imagem5 {background-color: white;
-    background-size: 40%;
-    background-image: url(imagens/6.jpg);
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    max-width: 800x;
-    height: 450px;
-    margin-bottom: 0px;
-    box-shadow: inset 3px 3px 13px 1px black
-}
-
-.imagem6 {background-color: white;
-    background-size: 40%;
-    background-image: url(imagens/7.webp);
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    max-width: 800x;
-    height: 450px;
-    margin-bottom: 0px;
-    box-shadow: inset 3px 3px 13px 1px black
-    }
-
-
-    #destaquepro{ background-color: #00004ebb;
+#navegaçao > a {
+    flex-basis: 150px;
+    font-size: 18px;
     color: white;
-}
+    text-decoration: none;
+    
 
 
-
-    main #link1 {margin: auto;
-    background-image: linear-gradient(to top, #000000, #0c0c9d);
-    color: white;
-    width: 100px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    }
+    
+    
    
-    main #link1:hover {
-        color: white;
-    background-image: linear-gradient(to top, #000000, #711795);
-    box-shadow: 0px 0px 10px #2c58b0;
-    }
-
-
-                .desmarcado{
-                    margin: 1px;
-                    padding-top: 5px;
-                    padding-right: 10px;
-                    padding-bottom: 5px;
-                    padding-left: 10px;
-                    border-radius: 50%;
-                    background-image: linear-gradient(to top, #000000, #0c0c9d);
-                    color: white;
-                   }
-                   
-                   .desmarcado:hover {
-                    background-image: linear-gradient(to top, #000000, #711795);
-                    transition: 0.5s;
-                    color: #ffffff;
-                    box-shadow: 0px 0px 10px #2c58b0;
-                   }
-               
-                  #marcado{
-                      margin: 1px;
-                      padding-top: 5px;
-                      padding-right: 10px;
-                      padding-bottom: 5px;
-                      padding-left: 10px;
-                      border-radius: 50%;
-                      color: white;
-                      background-image: linear-gradient(to top, #000000, #711795);
-                      box-shadow: 0px 0px 10px #2c58b0;}
-            
-                    .numeros{text-align: center;
-                        width: 100%;
-                        display: inline-block;
-                        margin-bottom: 50px;
-                        margin-top: 30px;}
-              
+    
+}
